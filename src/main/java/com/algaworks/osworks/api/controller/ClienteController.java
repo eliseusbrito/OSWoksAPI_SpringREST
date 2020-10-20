@@ -8,7 +8,7 @@ public class ClienteController {
 	
 	@GetMapping("/clientes")
 	public String listar() {
-		return "Teste";
+		return "Retorna uma String somente para demonstração";
 	}
 
 }
